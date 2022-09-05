@@ -1,0 +1,245 @@
+ .u-section-1 {
+  background-image: none;
+  min-height: 12px;
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 34px;
+  }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 602px;
+}
+
+.u-section-2 .u-group-1 {
+  width: 678px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  height: auto;
+  min-height: 406px;
+  margin: 79px auto 60px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-2 .u-icon-1 {
+  width: 93px;
+  height: 93px;
+  margin: 62px auto 0;
+  padding: 0;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 476px;
+  margin: 17px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  text-transform: none;
+  width: 476px;
+  margin: 7px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 39px auto 0;
+  padding: 10px 93px 10px 92px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 625px;
+  }
+
+  .u-section-2 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 602px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: 675px;
+    margin-top: 80px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .u-section-2 .u-icon-1 {
+    margin-top: 75px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 19px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-top: 9px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-group-1 {
+    margin-top: 75px;
+    width: 340px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-section-2 .u-icon-1 {
+    margin-top: 70px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.25rem;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 38px;
+  }
+} .u-section-1 .u-text-1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Enriqueta;
+  font-weight: 700;
+  width: 297px;
+  margin: 29px auto 0;
+}
+u-section-1 .u-image-1 {
+  width: 121px;
+  height: 154px;
+  margin: 53px auto 0;
+}
+u-section-1 u-form-1 {
+  height: 317px;
+  width: 500px;
+  margin: 15px auto 0;
+}
+u-section-1 u-label-1 {
+  font-size: 1.125rem;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+u-section-1.u-input-1 {
+  background-image: none;
+}
+u-section-1 u-label-2 {
+  font-size: 1.125rem;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+u-section-1 u-input-2 {
+  background-image: none;
+}
+u-section-1 u-label-3 {
+  font-size: 1.125rem;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+u-section-1 u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  width: 100%;
+  padding: 19px 30px 20px;
+}
+u-section-1 u-btn-2 {
+  border-style: none none solid;
+  font-weight: 700;
+  font-size: 1.125rem;
+  align-self: center;
+  margin: 15px 33px 0 auto;
+  padding: 0;
+}
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+  .u-section-1 .u-group-2 {
+    height: auto;
+  }
+  .u-section-1 .u-text-1 {
+    text-transform: none;
+  }
+}
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-section-1 .u-btn-2 {
+    margin-right: 4px;
+  }
+}
+@media (max-width: 575px) {
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
