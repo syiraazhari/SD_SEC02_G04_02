@@ -1,8 +1,6 @@
 <?php
 
-include "cust.php";
-include "verify.php";
-
+include "staff.php";
 
 print_r($_POST);	
 	
@@ -10,6 +8,10 @@ print_r($_POST);
 	{
 		ResetPass();
 		header('Location:PassChange.php');
+	}
+	else if(isSet($_POST['changePassBtn']))
+	{
+		changePass();
 	}
 	
 ?>
