@@ -1,7 +1,7 @@
 <?php
 $errors = array();
 session_start();
-
+$email= $_SESSION['loggedin'];
 
  function addCustomer()
 {
@@ -87,35 +87,31 @@ function ResetPass(){
 		return true;
 }
 
-/*function forgotPass()
-{
-	print_r($_POST);	
 
-$con = mysqli_connect('localhost','G04_02','G04_02','biggalleyscafe');	
+function changePass(){
+	
+print_r($_POST);
+ 
+ $con = mysqli_connect('localhost','G04_02','G04_02','biggalleyscafe');	
  if (mysqli_connect_errno())
 	{
 	echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	exit;	
 	}
 	echo "connected";
-	
-	$email= $_POST['email'];
-    $result = mysqli_query($con,"SELECT * FROM customer where email ='" . $_POST['email'] . "'");
-    $row = mysqli_fetch_assoc($result);
-	$fetch_user_id=$row['email'];
-	$email=$row['email'];
-	$password=$row['password'];
-	if($email==$fetch_user_id) {
-				$to = $email;
-                $subject = "Password";
-                $txt = "Your password is : $password.";
-                $headers = "From: yixn00@gmail.com" . "\r\n" .
-                "CC:  yixn02@gmail.com";
-                mail($to,$subject,$txt,$headers);
-			}
-				else{
-					echo 'invalid id';
-				}
-	
-}*/
+  $email = $_POST['email'];
+  $password=$_POST['password'];
+  $newPassword = $_POST['newPassword'];
+  $confirmPassword=$_POST['confirmPassword'];
+	$sql= 'UPDATE admin SET `password` = "'.$newPassword.'", confirmPassword="'.$confirmPassword.'" WHERE email = "'.$email.'"';
+	echo $sql;	
+	$qry = mysqli_query($con,$sql);
+	                 
+
+	if(!$qry)
+		return false;
+	else
+		return true;
+
+}
 ?>
